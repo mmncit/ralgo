@@ -5,6 +5,11 @@
 * Implementation of common data structures and algorithms using Ruby 
 * Acceptance tests are written for the components using RSpec 
 
+| Datastructures | Ruby Implementation | RSpec |  
+| --- | --- |  --- |
+| Binary Search Tree | [BTree.rb](BTree.rb) | [btree_spec.rb](spec/btree_spec.rb) |
+| Graph | [Graph.rb](Graph.rb) | .. |
+
 To run the test suite:
 ```bash
 rspec
