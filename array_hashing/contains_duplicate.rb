@@ -8,5 +8,18 @@ def contains_duplicate(nums)
   nums.uniq.size != nums.size
 end
 
+def contains_duplicate_using_hash(nums)
+  return false if nums.empty?
+
+  hash = {}
+  nums.each do |num|
+    return true if hash[num]
+
+    hash[num] = true
+  end
+
+  false
+end
+
 # Time complexity: O(n)
 # Space complexity: O(n)
