@@ -1,0 +1,18 @@
+name: run unit tests
+
+on: [push]
+jobs:
+  run-rspec:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+    - name: Run tests
+      run: bundle exec rspec
