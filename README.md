@@ -5,8 +5,8 @@
 
 | Datastructures     | Ruby Implementation  | RSpec                               |
 | ------------------ | -------------------- | ----------------------------------- |
-| Binary Search Tree | [BTree.rb](BTree.rb) | [btree_spec.rb](spec/btree_spec.rb) |
-| Graph              | [Graph.rb](Graph.rb) | ..                                  |
+| Binary Search Tree | [btree.rb](btree.rb) | [btree_spec.rb](spec/btree_spec.rb) |
+| Graph              | [graph.rb](graph.rb) | ..                                  |
 
 To run the test suite:
 
